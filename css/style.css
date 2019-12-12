@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
 
 .view {
-    background: url('/reflections/assets/images/reflections3.JPG') no-repeat center center;
+    background: url('/assets/images/reflections3.JPG') no-repeat center center;
     background-size: cover;
 }
 
@@ -33,6 +33,10 @@
 
 .more-info {
     padding-bottom: 50px;
+}
+
+.fa-li {
+    color: #e83e8c;
 }
 
 html,
