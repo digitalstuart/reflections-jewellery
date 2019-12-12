@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+
+.view {
+    background: url('/reflections/assets/images/reflections3.JPG') no-repeat center center;
+    background-size: cover;
+}
+
+.navbar-dark .navbar-brand {
+    font-family: "Niconne", sans-serif;
+    font-size: 30px;
+    color: #48a0c1;
+    margin: 0;
+}
+
+.short-promo-text {
+    font-family: "Niconne", sans-serif;
+    font-size: 25px;
+    color: #48a0c1;     
+    padding-top: .3rem;
+}
+
+.jumbotron {
+    background-color: transparent;    
+}
+
+.jumbotron p {
+    text-align: justify;    
+}
+
+.contact {
+    padding-top: 50px;
+    
+}
+
+.more-info {
+    padding-bottom: 50px;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+/* media queries */
+
