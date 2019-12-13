@@ -5,6 +5,13 @@
     background-size: cover;
 }
 
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
 .navbar-dark .navbar-brand {
     font-family: "Niconne", sans-serif;
     font-size: 30px;
@@ -39,9 +46,12 @@
     color: #e83e8c;
 }
 
-html,
-body,
-header,
-.view {
-  height: 100%;
+.test-float {
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
 }
