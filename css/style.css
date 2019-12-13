@@ -3,6 +3,7 @@
 .view {
     background: url('/assets/images/reflections3.JPG') no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 html,
@@ -10,17 +11,16 @@ body,
 header,
 .view {
   height: 100%;
+  font-family: "Niconne", sans-serif;
 }
 
 .navbar-dark .navbar-brand {
-    font-family: "Niconne", sans-serif;
     font-size: 30px;
     color: #48a0c1;
     margin: 0;
 }
 
 .short-promo-text {
-    font-family: "Niconne", sans-serif;
     font-size: 25px;
     color: #48a0c1;     
     padding-top: .3rem;
@@ -54,4 +54,71 @@ header,
 
 .navbar-toggler {
     margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#submit, #name, #email {
+    padding-bottom: 10px;
+}
+
+#text, #file {
+    padding-bottom: 5px;
+}
+
+.label {
+    padding-right: 2px;
+}
+
+.footer {
+    background-color: red
+}
+
+#photo {
+    column-count: 2;
+}
+
+#photo img{
+    width:100%;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }

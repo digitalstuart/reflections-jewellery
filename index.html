@@ -16,7 +16,7 @@
 	<div id="fb-root"></div>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0">
 	</script>
-	<header>
+	<header id="top">
 		<nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
 			<a class="navbar-brand" href="index.html">Reflections Jewellery</a>
 			<!-- This was adapted from the LMS whiskey project -->
@@ -31,10 +31,10 @@
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="#form">Contact</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Gallery</a>
+						<a class="nav-link" href="#gallery">Gallery</a>
 					</li>
 				</ul>
 			</div>
@@ -53,7 +53,7 @@
 									colour and design specifications, using crystal glass, electroplated glass, antique
 									bronze, beads, pearls
 									and more.</p>
-								<button><a href="https://balsamiq.cloud/stu4x6m/pom2kbq/r2278" target="_blank">Get in touch!</a></button>
+								<button class="button"><a href="#form"><span>Get in touch!</span></a></button>
 							</section>
 						</div>
 						<div class="col-0 col-md-2 contact"></div>
@@ -70,7 +70,7 @@
 									<li><span class="fa-li"><i class="fas fa-ring"></i></span>You choose a design</li>
 									<li><span class="fa-li"><i class="fas fa-ring"></i></span>You choose the colours
 									</li>
-								</ul>
+								</ul>                                                          
 							</section>
 						</div>
 						<div class="col-0 col-md-2 more-info"></div>
@@ -79,25 +79,42 @@
 			</div>
 		</div>
 	</header>
-	<!-- This is left over from the mdbootstrap.com code, I have yet to touch it -->
-	<main class="text-center py-5">
+	<main class="py-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-lg-8">
-					<div class="form">
+				<div class="col-12 col-md-6">
+					<div id="form">
 						<form>
-							<input type="text" name="text" id="text">
-							<input type="email" name="email" id="email">
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-							<input type="file" name="file" id="file">
-							<input type="submit" name="submit" id="file">
-							<input type="reset" name="reset" id="reset">
-                        </form>
+							<ul>
+								<li id="name">
+									<label for="name" class="label">Name</label>
+									<input type="text" name="name" id="name" required>
+                                </li>
+								<li id="email">
+									<label for="email" class="label">Email</label>
+									<input type="email" name="email" id="email" required>
+                                </li>
+								<li id="text">
+									<textarea name="text" id="text" placeholder="What design would you like? What are your favourite colours? What’s your budget?" cols="49" rows="10"></textarea>
+								</li>
+								<li id="file">
+									<label for="file" class="label">Upload any example images</label>
+									<input type="file" name="file" id="file">
+                                </li>
+								<li id="submit">
+									<input type="submit" name="submit" id="submit" class="button">
+                                </li>
+								<li>
+									<input type="reset" name="reset" id="reset" class="button" Clear form>
+                                </li>
+							</ul>
+						</form>
+                        <p>Some other text here</p>   
 					</div>
 				</div>
-				<div class="col-12 col-lg-4">
+				<div class="col-12 col-md-6">
 					<div class="fb-page" data-href="https://www.facebook.com/Reflections-Jewelry-102405614519544/"
-						data-tabs="timeline" data-width="" data-height="" data-small-header="false"
+						data-tabs="timeline" data-width="500" data-height="580" data-small-header="false"
 						data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
 						<blockquote cite="https://www.facebook.com/Reflections-Jewelry-102405614519544/"
 							class="fb-xfbml-parse-ignore"><a
@@ -107,6 +124,96 @@
 				</div>
 			</div>
 		</div>
+	</main>
+	<main class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<section id="photo">
+						<img src="/assets/images/reflections1.jpeg" alt="">
+						<img src="/assets/images/reflections2.jpeg" alt="">
+						<img src="/assets/images/reflections4.jpg" alt="">
+						<img src="/assets/images/reflections5.jpg" alt="">
+                    </section>
+				</div>
+				<div class="col-12 col-md-6">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida urna eros, et vehicula nunc
+					faucibus vitae. Nunc ornare sodales mi. Praesent interdum eros dolor, nec porta magna maximus nec.
+					Donec ultricies augue vitae est faucibus, sit amet rutrum quam viverra. Aliquam id purus at neque
+					iaculis laoreet. Pellentesque hendrerit ante quis ipsum aliquam, placerat semper massa varius.
+					Praesent sollicitudin mi eu augue feugiat, non venenatis massa placerat. Maecenas nisi purus,
+					iaculis non orci non, interdum dapibus ex. Sed elit nunc, efficitur in ipsum ut, fermentum varius
+					nibh. Morbi id sodales erat, et iaculis leo. Donec sagittis ante pretium eleifend luctus. Aliquam
+					quis est augue. Duis sollicitudin dui ex, a porttitor urna gravida a. Quisque sit amet ullamcorper
+					diam, vitae consectetur nisi. Praesent eu maximus leo.
+
+					Fusce et sapien aliquam, ornare elit vitae, eleifend quam. Etiam vitae sodales mi. Nullam risus
+					ipsum, tincidunt cursus ultrices non, tristique eu risus. Nam enim elit, gravida non maximus at,
+					placerat vel dui. Nam mauris ipsum, aliquam nec arcu in, pellentesque euismod nisl. Suspendisse
+					scelerisque pellentesque quam non vestibulum. Morbi dolor odio, dictum vitae finibus eget, interdum
+					sed metus. Fusce in metus et metus elementum maximus quis a magna. Aliquam sagittis a mi imperdiet
+					lacinia. Suspendisse venenatis, eros nec porttitor malesuada, neque justo efficitur magna, at
+					sollicitudin elit metus in orci.
+
+					Vivamus non diam ut nibh pulvinar malesuada vel vel purus. Nunc a tortor mauris. Duis consequat
+					purus nec metus ultrices, at mollis diam tempor. Ut in eleifend neque. Maecenas ac mattis eros.
+					Vivamus in aliquam tellus. Morbi nec volutpat enim. Proin molestie, nisl et tempus dictum, ante
+					tortor viverra velit, vel cursus velit mi quis ante. Phasellus id lectus purus. Ut at urna eu nisi
+					placerat elementum eget nec risus. Cras at est quis magna interdum euismod eu at turpis.
+					Pellentesque vestibulum sollicitudin sodales. Pellentesque et massa laoreet, ultrices neque ac,
+					luctus magna. Ut sed purus sit amet odio venenatis semper. Aliquam erat volutpat.
+
+					Integer vel nunc erat. Morbi mi nisi, scelerisque sed ipsum ut, mollis posuere nisi. Phasellus
+					rutrum faucibus mi. Nam molestie tempus nisi non imperdiet. Donec hendrerit elit sit amet dolor
+					mattis, quis egestas mauris ornare. Pellentesque vitae placerat odio. Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit. Duis id leo nec magna vulputate ultrices. Cras eu dui et ante mattis
+					luctus. Nullam id volutpat orci, quis aliquam quam. Etiam posuere lacinia condimentum. Curabitur
+					posuere, ex ut blandit dignissim, odio neque gravida mauris, vitae venenatis justo orci et nibh.
+
+					Pellentesque ut felis auctor est dignissim malesuada sit amet quis erat. Integer facilisis aliquam
+					libero, eu eleifend orci tempor nec. Fusce porttitor finibus enim. Class aptent taciti sociosqu ad
+					litora torquent per conubia nostra, per inceptos himenaeos. Donec vitae tortor lacinia, ornare est
+					eu, elementum orci. Quisque consequat enim dolor, id scelerisque elit congue faucibus. Sed tempor
+					erat leo, in mollis eros aliquet ac. Integer velit ipsum, mollis ut nunc sed, dignissim porttitor
+					nisi. Praesent nec dui molestie, gravida mauris vel, pulvinar risus. Aliquam et risus mi. In rutrum,
+					eros ut blandit placerat, orci leo tincidunt turpis, at vulputate metus nisl ornare sapien. Vivamus
+					aliquam, justo sed sagittis convallis, sapien lacus sodales lorem, ut dignissim elit nulla ac
+					sapien. Etiam vestibulum odio elit, vel gravida quam congue id.
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="row">
+				<div class="col-12 footer text-center">
+					© 2019 Copyright: Marianne McGrath/Stuart Richards</span>
+					<ul class="list-inline social-links">
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.linkedin.com/in/marianne-mcgrath-41558449/">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="sr-only">LinkedIn</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fas fa-at" aria-hidden="true"></i>
+								<span class="sr-only">Email</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#top">Back to top
+								<i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i>
+								<span class="sr-only">Arrow</span>
+							</a>
+						</li>
+				</div>
+			</div>
+		</footer>
 	</main>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
