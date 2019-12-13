@@ -1,17 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
 
-.view {
-    background: url('/assets/images/reflections3.JPG') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 html,
 body,
 header,
 .view {
   height: 100%;
   font-family: "Niconne", sans-serif;
+}
+
+body {
+    margin-right: 0;
+}
+
+.view {
+    background: url('/assets/images/reflections3.JPG') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.view-2 {
+    background: url('/assets/images/earring.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.view-3 {
+    background: url('/assets/images/reflections2.jpeg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .navbar-dark .navbar-brand {
@@ -49,7 +65,7 @@ header,
 .test-float {
     float: right;
     text-align: right;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .navbar-toggler {
@@ -73,15 +89,25 @@ ul {
 }
 
 .footer {
-    background-color: red
+    background-color: red;
+    padding-top: 10px;    
 }
 
 #photo {
     column-count: 2;
+    padding-bottom: 20px;
 }
 
 #photo img{
     width:100%;
+}
+
+#about {
+    padding-bottom: 20px;
+}
+
+#image {
+    float: right;
 }
 
 .button {
@@ -121,4 +147,10 @@ ul {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+@media screen and (max-width: 768px){
+    #about {
+    padding-top: 10px;
+    }
 }

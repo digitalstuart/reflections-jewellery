@@ -17,7 +17,7 @@
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0">
 	</script>
 	<header id="top">
-		<nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
+		<nav class="navbar fixed-top navbar-dark indigo">
 			<a class="navbar-brand" href="index.html">Reflections Jewellery</a>
 			<!-- This was adapted from the LMS whiskey project -->
 			<span class="d-md-inline d-block short-promo-text">Handmade bespoke beaded jewellery</span>
@@ -44,46 +44,54 @@
 			<div class="full-bg-img">
 				<div class="mask rgba-black-light flex-center">
 					<!-- This was adapted from the LMS whiskey project -->
-					<div class="row">
-						<div class="col-0 col-md-2 contact"></div>
-						<div class="col-12 col-md-8 contact">
-							<section class="jumbotron text-center">
-								<p class="border border-primary">Earrings, necklaces, bracelets and other jewellery -
-									all made with care and precision to your
-									colour and design specifications, using crystal glass, electroplated glass, antique
-									bronze, beads, pearls
-									and more.</p>
-								<button class="button"><a href="#form"><span>Get in touch!</span></a></button>
-							</section>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-0 col-md-2 contact"></div>
+							<div class="col-12 col-md-8 contact">
+								<section class="jumbotron text-center">
+									<p class="border border-primary">Earrings, necklaces, bracelets and other jewellery
+										-
+										all made with care and precision to your
+										colour and design specifications, using crystal glass, electroplated glass,
+										antique
+										bronze, beads, pearls
+										and more.</p>
+									<button class="button"><a href="#form"><span>Get in touch</span></a></button>
+								</section>
+							</div>
+							<div class="col-0 col-md-2 contact"></div>
 						</div>
-						<div class="col-0 col-md-2 contact"></div>
-					</div>
-					<div class="row">
-						<div class="col-0 col-md-2 more-info"></div>
-						<div class="col-12 col-md-8 more-info">
-							<section class="jumbotron text-center">
-								<ul class="border border-primary fa-ul">
-									<li><span class="fa-li"><i class="fas fa-ring"></i></span>Handmade and homemade</li>
-									<li><span class="fa-li"><i class="fas fa-ring"></i></span>Inspired by seasonal
-										colors</li>
-									<li><span class="fa-li"><i class="fas fa-ring"></i></span>Lead and nickel-free</li>
-									<li><span class="fa-li"><i class="fas fa-ring"></i></span>You choose a design</li>
-									<li><span class="fa-li"><i class="fas fa-ring"></i></span>You choose the colours
-									</li>
-								</ul>                                                          
-							</section>
+						<div class="row">
+							<div class="col-0 col-md-2 more-info"></div>
+							<div class="col-12 col-md-8 more-info">
+								<section class="jumbotron text-center">
+									<ul class="fa-ul border border-primary">
+										<li><span class="fa-li"><i class="fas fa-ring"></i></span>Handmade and homemade
+										</li>
+										<li><span class="fa-li"><i class="fas fa-ring"></i></span>Inspired by seasonal
+											colors</li>
+										<li><span class="fa-li"><i class="fas fa-ring"></i></span>Lead and nickel-free
+										</li>
+										<li><span class="fa-li"><i class="fas fa-ring"></i></span>You choose a design
+										</li>
+										<li><span class="fa-li"><i class="fas fa-ring"></i></span>You choose the colours
+										</li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-0 col-md-2 more-info"></div>
 						</div>
-						<div class="col-0 col-md-2 more-info"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-	<main class="py-5">
-		<div class="container">
+	<main class="view-2 py-5">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-12 col-md-6">
-					<div id="form">
+					<div class="text-center" id="form">
+						<h2>Get in touch</h2>
 						<form>
 							<ul>
 								<li id="name">
@@ -109,12 +117,13 @@
                                 </li>
 							</ul>
 						</form>
-                        <p>Some other text here</p>   
+						<p>Making an enquiry implies no obligation to purchase a product!</p>
 					</div>
 				</div>
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-6 text-center">
+                    <h2>Follow on Facebook</h2>
 					<div class="fb-page" data-href="https://www.facebook.com/Reflections-Jewelry-102405614519544/"
-						data-tabs="timeline" data-width="500" data-height="580" data-small-header="false"
+						data-tabs="timeline" data-width="" data-height="" data-small-header="false"
 						data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
 						<blockquote cite="https://www.facebook.com/Reflections-Jewelry-102405614519544/"
 							class="fb-xfbml-parse-ignore"><a
@@ -125,95 +134,83 @@
 			</div>
 		</div>
 	</main>
-	<main class="py-5">
-		<div class="container">
+	<main class="view-3 py-5">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-6 text-center" id="gallery">
+                    <h2>Gallery</h2>
 					<section id="photo">
-						<img src="/assets/images/reflections1.jpeg" alt="">
-						<img src="/assets/images/reflections2.jpeg" alt="">
+                        <!-- Use Kooba case studies section here? https://www.kooba.ie/ -->
+						<img src="/assets/images/reflections4.jpg" alt="">
+						<img src="/assets/images/reflections5.jpg" alt="">
 						<img src="/assets/images/reflections4.jpg" alt="">
 						<img src="/assets/images/reflections5.jpg" alt="">
                     </section>
 				</div>
-				<div class="col-12 col-md-6">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida urna eros, et vehicula nunc
-					faucibus vitae. Nunc ornare sodales mi. Praesent interdum eros dolor, nec porta magna maximus nec.
-					Donec ultricies augue vitae est faucibus, sit amet rutrum quam viverra. Aliquam id purus at neque
-					iaculis laoreet. Pellentesque hendrerit ante quis ipsum aliquam, placerat semper massa varius.
-					Praesent sollicitudin mi eu augue feugiat, non venenatis massa placerat. Maecenas nisi purus,
-					iaculis non orci non, interdum dapibus ex. Sed elit nunc, efficitur in ipsum ut, fermentum varius
-					nibh. Morbi id sodales erat, et iaculis leo. Donec sagittis ante pretium eleifend luctus. Aliquam
-					quis est augue. Duis sollicitudin dui ex, a porttitor urna gravida a. Quisque sit amet ullamcorper
-					diam, vitae consectetur nisi. Praesent eu maximus leo.
+				<div class="col-12 col-md-6 text-center">
+					<div id="about">
+                        <h2>About me</h2>
+						<img id="image" src="/assets/images/marianne.jpg" alt="Marianne McGrath">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida urna eros, et vehicula nunc
+						faucibus vitae. Nunc ornare sodales mi. Praesent interdum eros dolor, nec porta magna maximus
+						nec.
+						Donec ultricies augue vitae est faucibus, sit amet rutrum quam viverra. Aliquam id purus at
+						neque
+						iaculis laoreet. Pellentesque hendrerit ante quis ipsum aliquam, placerat semper massa varius.
+						Praesent sollicitudin mi eu augue feugiat, non venenatis massa placerat. Maecenas nisi purus,
+						iaculis non orci non, interdum dapibus ex. Sed elit nunc, efficitur in ipsum ut, fermentum
+						varius
+						nibh. Morbi id sodales erat, et iaculis leo. Donec sagittis ante pretium eleifend luctus.
+						Aliquam
+						quis est augue. Duis sollicitudin dui ex, a porttitor urna gravida a. Quisque sit amet
+						ullamcorper
+						diam, vitae consectetur nisi. Praesent eu maximus leo.
 
-					Fusce et sapien aliquam, ornare elit vitae, eleifend quam. Etiam vitae sodales mi. Nullam risus
-					ipsum, tincidunt cursus ultrices non, tristique eu risus. Nam enim elit, gravida non maximus at,
-					placerat vel dui. Nam mauris ipsum, aliquam nec arcu in, pellentesque euismod nisl. Suspendisse
-					scelerisque pellentesque quam non vestibulum. Morbi dolor odio, dictum vitae finibus eget, interdum
-					sed metus. Fusce in metus et metus elementum maximus quis a magna. Aliquam sagittis a mi imperdiet
-					lacinia. Suspendisse venenatis, eros nec porttitor malesuada, neque justo efficitur magna, at
-					sollicitudin elit metus in orci.
-
-					Vivamus non diam ut nibh pulvinar malesuada vel vel purus. Nunc a tortor mauris. Duis consequat
-					purus nec metus ultrices, at mollis diam tempor. Ut in eleifend neque. Maecenas ac mattis eros.
-					Vivamus in aliquam tellus. Morbi nec volutpat enim. Proin molestie, nisl et tempus dictum, ante
-					tortor viverra velit, vel cursus velit mi quis ante. Phasellus id lectus purus. Ut at urna eu nisi
-					placerat elementum eget nec risus. Cras at est quis magna interdum euismod eu at turpis.
-					Pellentesque vestibulum sollicitudin sodales. Pellentesque et massa laoreet, ultrices neque ac,
-					luctus magna. Ut sed purus sit amet odio venenatis semper. Aliquam erat volutpat.
-
-					Integer vel nunc erat. Morbi mi nisi, scelerisque sed ipsum ut, mollis posuere nisi. Phasellus
-					rutrum faucibus mi. Nam molestie tempus nisi non imperdiet. Donec hendrerit elit sit amet dolor
-					mattis, quis egestas mauris ornare. Pellentesque vitae placerat odio. Lorem ipsum dolor sit amet,
-					consectetur adipiscing elit. Duis id leo nec magna vulputate ultrices. Cras eu dui et ante mattis
-					luctus. Nullam id volutpat orci, quis aliquam quam. Etiam posuere lacinia condimentum. Curabitur
-					posuere, ex ut blandit dignissim, odio neque gravida mauris, vitae venenatis justo orci et nibh.
-
-					Pellentesque ut felis auctor est dignissim malesuada sit amet quis erat. Integer facilisis aliquam
-					libero, eu eleifend orci tempor nec. Fusce porttitor finibus enim. Class aptent taciti sociosqu ad
-					litora torquent per conubia nostra, per inceptos himenaeos. Donec vitae tortor lacinia, ornare est
-					eu, elementum orci. Quisque consequat enim dolor, id scelerisque elit congue faucibus. Sed tempor
-					erat leo, in mollis eros aliquet ac. Integer velit ipsum, mollis ut nunc sed, dignissim porttitor
-					nisi. Praesent nec dui molestie, gravida mauris vel, pulvinar risus. Aliquam et risus mi. In rutrum,
-					eros ut blandit placerat, orci leo tincidunt turpis, at vulputate metus nisl ornare sapien. Vivamus
-					aliquam, justo sed sagittis convallis, sapien lacus sodales lorem, ut dignissim elit nulla ac
-					sapien. Etiam vestibulum odio elit, vel gravida quam congue id.
+						Fusce et sapien aliquam, ornare elit vitae, eleifend quam. Etiam vitae sodales mi. Nullam risus
+						ipsum, tincidunt cursus ultrices non, tristique eu risus. Nam enim elit, gravida non maximus at,
+						placerat vel dui. Nam mauris ipsum, aliquam nec arcu in, pellentesque euismod nisl. Suspendisse
+						scelerisque pellentesque quam non vestibulum. Morbi dolor odio, dictum vitae finibus eget,
+						interdum
+						sed metus. Fusce in metus et metus elementum maximus quis a magna. Aliquam sagittis a mi
+						imperdiet
+						lacinia. Suspendisse venenatis, eros nec porttitor malesuada, neque justo efficitur magna, at
+						sollicitudin elit metus in orci.
+					</div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<footer>
-			<div class="row">
-				<div class="col-12 footer text-center">
-					© 2019 Copyright: Marianne McGrath/Stuart Richards</span>
-					<ul class="list-inline social-links">
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-								<i class="fab fa-facebook" aria-hidden="true"></i>
-								<span class="sr-only">Facebook</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="https://www.linkedin.com/in/marianne-mcgrath-41558449/">
-								<i class="fab fa-facebook" aria-hidden="true"></i>
-								<span class="sr-only">LinkedIn</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-								<i class="fas fa-at" aria-hidden="true"></i>
-								<span class="sr-only">Email</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="#top">Back to top
-								<i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i>
-								<span class="sr-only">Arrow</span>
-							</a>
-						</li>
+			<footer>
+				<div class="row">
+					<div class="col-12 footer text-center">
+						© 2019 Copyright: Marianne McGrath/Stuart Richards</span>
+						<ul class="list-inline social-links">
+							<li class="list-inline-item">
+								<a target="_blank" href="#">
+									<i class="fab fa-facebook-f" aria-hidden="true"></i>
+									<span class="sr-only">Facebook</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="https://www.linkedin.com/in/marianne-mcgrath-41558449/">
+									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									<span class="sr-only">LinkedIn</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="#">
+									<i class="fas fa-at" aria-hidden="true"></i>
+									<span class="sr-only">Email</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#top">Back to top
+									<i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i>
+									<span class="sr-only">Arrow</span>
+								</a>
+							</li>
+					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
 	</main>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
