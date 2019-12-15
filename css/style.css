@@ -30,6 +30,14 @@ body {
     background-attachment: fixed;
 }
 
+.navbar {
+    background-color: #36454f;
+}
+
+.navbar-collapse {
+    background-color: transparent;
+}
+
 .navbar-dark .navbar-brand {
     font-size: 30px;
     color: #48a0c1;
@@ -44,23 +52,30 @@ body {
 
 .jumbotron {
     background-color: transparent;    
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .jumbotron p {
-    text-align: justify;    
+    text-align: justify;  
+    font-size: 20px;  
+    margin-top: 100px;
 }
 
 .contact {
     padding-top: 50px;    
 }
 
-.more-info {
-    padding-bottom: 50px;
+.fa-ul {
+    font-size: 20px;
+    margin-left: 0;
 }
 
 .fa-li {
     color: #e83e8c;
-}
+    position: relative;
+    left: -0.5em;
+    }
 
 .test-float {
     float: right;
@@ -149,8 +164,22 @@ ul {
   right: 0;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 576px){
+    
     #about {
     padding-top: 10px;
     }
+
+    .jumbotron p {
+    margin-top: 0;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 20px;
+}
+
+.short-promo-text {
+    font-size: 15px;
+    }
+
 }
