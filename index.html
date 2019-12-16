@@ -20,78 +20,75 @@
 		<nav class="navbar fixed-top navbar-dark indigo">
 			<a class="navbar-brand" href="index.html">Reflections Jewellery</a>
 			<!-- This was adapted from the LMS whiskey project -->
-			<span class="d-md-inline d-block short-promo-text">Handmade bespoke beaded jewellery</span>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+			<span class="d-none d-sm-inline short-promo-text">Handmade bespoke beaded jewellery</span>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span> <i class="fas fa-bars"></i></span>
             </button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav test-float">
+				<ul class="navbar-nav float-right">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<a id="nav-link-1" href="index.html">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#form">Contact</a>
+						<a id="nav-link-2" href="#form">Contact</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#gallery">Gallery</a>
+						<a id="nav-link-3" href="#gallery">Gallery</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
-		<!-- This is from the mdbootstrap.com code -->
 		<div class="view intro-2">
 			<div class="full-bg-img">
 				<div class="mask rgba-black-light flex-center">
-					<!-- This was adapted from the LMS whiskey project -->
 					<div class="container-fluid">
-						<div class="row">
-							<div class="col-0 col-md-2 contact"></div>
-							<div class="col-12 col-md-8 contact">
+						<div class="row no-gutters">
+							<div class="col-1 col-md-2 contact"></div>
+							<div class="col-10 col-md-8 contact">
 								<section class="jumbotron text-center">
-									<p class="border border-primary">Earrings, necklaces, bracelets and other jewellery
+									<p>Earrings, necklaces, bracelets and other jewellery
 										-
 										all made with care and precision to your
 										colour and design specifications, using crystal glass, electroplated glass,
 										antique
 										bronze, beads, pearls
 										and more.</p>
-									<button class="button"><a href="#form"><span>Get in touch</span></a></button>
+									<button class="button"><span>Get in touch </span></button>
 								</section>
 							</div>
-							<div class="col-0 col-md-2 contact"></div>
+							<div class="col-1 col-md-2 contact"></div>
 						</div>
-						<div class="row">
-							<div class="col-0 col-md-2 more-info"></div>
-							<div class="col-12 col-md-8 more-info">
+						<div class="row no-gutters">
+							<div class="col-1 col-md-2 more-info"></div>
+							<div class="col-10 col-md-8 more-info">
 								<section class="jumbotron text-center">
 									<ul class="fa-ul">
-										<li><span class="fa-li"><i class="fas fa-ring"></i></span>Handmade and homemade
+										<li><span class="fa-li"><i class="far fa-gem"></i></span>Handmade and homemade
 										</li>
-										<li><span class="fa-li"><i class="fas fa-ring"></i></span>Inspired by seasonal
+										<li><span class="fa-li"><i class="far fa-gem"></i></span>Inspired by seasonal
 											colors</li>
-										<li><span class="fa-li"><i class="fas fa-ring"></i></span>Lead and nickel-free
+										<li><span class="fa-li"><i class="far fa-gem"></i></span>Lead and nickel-free
 										</li>
-										<li><span class="fa-li"><i class="fas fa-ring"></i></span>You choose a design
+										<li><span class="fa-li"><i class="far fa-gem"></i></span>You choose a design
 										</li>
-										<li><span class="fa-li"><i class="fas fa-ring"></i></span>You choose the colours
+										<li><span class="fa-li"><i class="far fa-gem"></i></span>You choose the colours
 										</li>
 									</ul>
 								</section>
 							</div>
-							<div class="col-0 col-md-2 more-info"></div>
+							<div class="col-1 col-md-2 more-info"></div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-	<main class="view-2 py-5">
+	<main class="view-2 py-5 flex-center">
 		<div class="container-fluid">
-			<div class="row">
+			<div class="row no-gutters">
 				<div class="col-12 col-md-6">
 					<div class="text-center" id="form">
-						<h2>Get in touch</h2>
+						<h1>Get in touch</h1>
 						<form>
 							<ul>
 								<li id="name">
@@ -103,7 +100,7 @@
 									<input type="email" name="email" id="email" required>
                                 </li>
 								<li id="text">
-									<textarea name="text" id="text" placeholder="What design would you like? What are your favourite colours? What’s your budget?" cols="49" rows="10"></textarea>
+									<textarea name="text" id="text" placeholder="What design would you like? What are your favourite colours? What’s your budget?" cols="30" rows="10"></textarea>
 								</li>
 								<li id="file">
 									<label for="file" class="label">Upload any example images</label>
@@ -116,15 +113,16 @@
 									<input type="reset" name="reset" id="reset" class="button" Clear form>
                                 </li>
 							</ul>
-						</form>
-						<p>Making an enquiry implies no obligation to purchase a product!</p>
+                            <small>Making an enquiry implies no obligation to purchase a product!</small>
+						</form>						
 					</div>
 				</div>
 				<div class="col-12 col-md-6 text-center">
-                    <h2>Follow on Facebook</h2>
-					<div class="fb-page" data-href="https://www.facebook.com/Reflections-Jewelry-102405614519544/"
-						data-tabs="timeline" data-width="" data-height="" data-small-header="false"
-						data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+					<h1 id="Facebook">Follow on Facebook</h1>
+					<div class="fb-page" data-tabs="timeline"
+						data-href="https://www.facebook.com/Reflections-Jewelry-102405614519544/" data-height="600"
+						data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+						data-show-facepile="false">
 						<blockquote cite="https://www.facebook.com/Reflections-Jewelry-102405614519544/"
 							class="fb-xfbml-parse-ignore"><a
 								href="https://www.facebook.com/Reflections-Jewelry-102405614519544/">Reflections
@@ -134,13 +132,14 @@
 			</div>
 		</div>
 	</main>
-	<main class="view-3 py-5">
+
+    <section class="view-3 py-5 flex-center">
 		<div class="container-fluid">
-			<div class="row">
+			<div class="row no-gutters">
 				<div class="col-12 col-md-6 text-center" id="gallery">
-                    <h2>Gallery</h2>
+					<h2>Gallery</h2>
 					<section id="photo">
-                        <!-- Use Kooba case studies section here? https://www.kooba.ie/ -->
+						<!-- Use Kooba case studies section here? https://www.kooba.ie/ -->
 						<img src="/assets/images/reflections4.jpg" alt="">
 						<img src="/assets/images/reflections5.jpg" alt="">
 						<img src="/assets/images/reflections4.jpg" alt="">
@@ -149,7 +148,7 @@
 				</div>
 				<div class="col-12 col-md-6 text-center">
 					<div id="about">
-                        <h2>About me</h2>
+						<h2>About me</h2>
 						<img id="image" src="/assets/images/marianne.jpg" alt="Marianne McGrath">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida urna eros, et vehicula nunc
 						faucibus vitae. Nunc ornare sodales mi. Praesent interdum eros dolor, nec porta magna maximus
@@ -180,9 +179,9 @@
 				</div>
 			</div>
 			<footer>
-				<div class="row">
+				<div class="row no-gutters">
 					<div class="col-12 footer text-center">
-						© 2019 Copyright: Marianne McGrath/Stuart Richards</span>
+						© 2019 Copyright: Marianne McGrath/Stuart Richards
 						<ul class="list-inline social-links">
 							<li class="list-inline-item">
 								<a target="_blank" href="#">
@@ -208,10 +207,11 @@
 									<span class="sr-only">Arrow</span>
 								</a>
 							</li>
+						</ul>
 					</div>
 				</div>
 			</footer>
-	</main>
+	</section>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -221,6 +221,19 @@
 	</script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+      $(window).bind("load resize", function(){
+      setTimeout(function() {
+      var container_width = $('#fb-container').width();
+        $('#fb-container').html('<div class="fb-page" ' +
+        'data-href="https://www.facebook.com/Reflections-Jewelry-102405614519544/"' +
+        ' data-width="' + container_width + '" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="http://www.facebook.com/IniciativaAutoMat"><a href="https://www.facebook.com/Reflections-Jewelry-102405614519544/">Reflections Jewellery</a></blockquote></div></div>');
+        FB.XFBML.parse( );
+      }, 100);
+    });
+    });
 	</script>
 
 </body>

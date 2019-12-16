@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap');
 
-html,
-body,
-header,
-.view {
+html, body, header, .view {
   height: 100%;
-  font-family: "Niconne", sans-serif;
+  font-family: "Libre+Baskerville", sans-serif;
 }
 
 body {
     margin-right: 0;
 }
 
-.view {
-    background: url('/assets/images/reflections3.JPG') no-repeat center center;
+.intro-2 {
+    background: url('/assets/images/reflections4.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -32,34 +30,59 @@ body {
 
 .navbar {
     background-color: #36454f;
-}
-
-.navbar-collapse {
-    background-color: transparent;
+    font-family: "Niconne", sans-serif;
+    padding: 0;
 }
 
 .navbar-dark .navbar-brand {
-    font-size: 30px;
+    font-size: 27px;
     color: #48a0c1;
-    margin: 0;
+    margin: 10px;
+}
+
+.navbar-collapse {
+    padding-bottom: 5px;
 }
 
 .short-promo-text {
-    font-size: 25px;
+    font-size: 20px;
     color: #48a0c1;     
     padding-top: .3rem;
+}
+
+.fa-bars {
+    color: #48a0c1;
+    padding-top: 2px;    
+}
+
+.nav-item {
+    padding-bottom: 5px;
+}
+
+#nav-link-1 {
+    color: #48a0c1;    
+}
+
+#nav-link-2 {
+    color: #48a0c1;    
+}
+
+#nav-link-3 {
+    color: #48a0c1;    
 }
 
 .jumbotron {
     background-color: transparent;    
     margin-bottom: 0;
-    padding: 0;
+    padding: 0;    
+    color: #87a7b3;
 }
 
-.jumbotron p {
-    text-align: justify;  
-    font-size: 20px;  
-    margin-top: 100px;
+.jumbotron p {    
+    font-size: 16px;  
+    margin-top: 110px;
+    font-weight: 700;  
+    line-height: 1.5;  
 }
 
 .contact {
@@ -67,17 +90,18 @@ body {
 }
 
 .fa-ul {
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 0;
+    font-weight: 700;
+    line-height: 1.5; 
 }
 
 .fa-li {
-    color: #e83e8c;
     position: relative;
     left: -0.5em;
     }
 
-.test-float {
+.float-right {
     float: right;
     text-align: right;
     margin-right: 15px;
@@ -91,12 +115,24 @@ ul {
     list-style-type: none;
 }
 
-#submit, #name, #email {
-    padding-bottom: 10px;
+#name, #email {
+    margin-bottom: 10px;
 }
 
 #text, #file {
     padding-bottom: 5px;
+}
+
+#submit {
+    padding: 5px;
+}
+
+#reset {
+    margin: 0;   
+}
+
+#Facebook {
+    margin-top: 15px;
 }
 
 .label {
@@ -127,16 +163,16 @@ ul {
 
 .button {
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #36454f;
   border: none;
-  color: #FFFFFF;
+  color: #48a0c1;
   text-align: center;
-  font-size: 28px;
-  padding: 20px;
+  font-size: 25px;
+  padding: 5px;
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin-bottom: 12px;
 }
 
 .button span {
@@ -168,18 +204,6 @@ ul {
     
     #about {
     padding-top: 10px;
-    }
-
-    .jumbotron p {
-    margin-top: 0;
-}
-
-.navbar-dark .navbar-brand {
-    font-size: 20px;
-}
-
-.short-promo-text {
-    font-size: 15px;
     }
 
 }
