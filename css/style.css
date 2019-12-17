@@ -4,7 +4,7 @@
 html, body, header, .view {
   height: 100%;
   font-family: "Libre+Baskerville", sans-serif;
-  color: #87a7b3;
+  color: #3d6473;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
 .navbar-brand {
     font-size: 27px;
     color: #48a0c1;
-    margin: 10px;
+    margin: 10px 10px 10px 15px;
 }
 
 .nav-split {
@@ -102,6 +102,7 @@ body {
     font-weight: 700;  
     line-height: 1.5;  
     margin-top: 110px;   
+    color: #23353b;
 }
 
 h1 {
@@ -155,6 +156,7 @@ h1 {
 
 textarea, label, input, h1, .fb-page {
     max-width: 100%;
+    resize: none;
 }
 
 ul. button {
@@ -203,20 +205,31 @@ ul. button {
     width:100%;
 }
 
+.div-about {
+    padding-bottom: 48px;
+}
+
 #about {
-    padding-top: 48px;
-    padding-bottom: 50px;
+    padding-top: 48px;    
 }
 
 #about p {     
-    font-size: 16px;  
-    font-weight: 700;  
-    line-height: 1.5;   
-    text-align: left;       
+    font-size: 12px;  
+    font-weight: 400;          
+    text-align: left;           
 }
 
 #image {
-    float: right;
+    border: 5px solid;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.block-divider {
+    width: 100px;
+    height: 5px;
+    border: 0;
+    background-color: #3d6473;
 }
 
 .button {
