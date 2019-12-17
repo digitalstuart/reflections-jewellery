@@ -30,19 +30,19 @@ body {
 }
 
 .navbar {
-    background-color: #36454f;
     font-family: "Niconne", sans-serif;
     padding: 0;
 }
 
-.navbar-dark .navbar-brand {
+.navbar-brand {
     font-size: 27px;
     color: #48a0c1;
     margin: 10px;
 }
 
-.navbar-collapse {
-    padding-bottom: 5px;
+.nav-split {
+    padding: 0;
+    background-color: #36454f;
 }
 
 .short-promo-text {
@@ -54,6 +54,25 @@ body {
 .fa-bars {
     color: #48a0c1;
     padding-top: 2px;    
+}
+
+.float-right {
+    float: right;
+    text-align: right;
+    padding: 0px 15px 0px 15px;
+    background-color: #36454f;
+    }
+
+.navbar-toggler {    
+    float: right;
+    text-align: right;
+    margin: 20px 15px 15px 15px;
+    padding: 5px;
+}
+
+.navbar-collapse {
+    padding-bottom: 5px;
+    background-color: transparent;    
 }
 
 .nav-item {
@@ -109,16 +128,6 @@ h1 {
     position: relative;
     left: -0.5em;
     }
-
-.float-right {
-    float: right;
-    text-align: right;
-    margin-right: 15px;
-}
-
-.navbar-toggler {
-    margin-right: 10px;
-}
 
 .contact-form {
     list-style-type: none;
