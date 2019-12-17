@@ -120,9 +120,10 @@ h1 {
     margin-right: 10px;
 }
 
-ul {
+.contact-form {
     list-style-type: none;
     padding-inline-start: 0px;
+    margin-top: 1rem;
 }
 
 #name, #email {
@@ -181,6 +182,10 @@ ul. button {
     color: #48a0c1;
 }
 
+#gallery {
+    margin-top: 1rem;
+    }
+
 #photo {
     column-count: 2;    
 }
@@ -218,6 +223,10 @@ ul. button {
   transition: all 0.5s;
   cursor: pointer;
   margin-bottom: 12px;
+}
+
+.button a {
+    color: #48a0c1;
 }
 
 .button span {
