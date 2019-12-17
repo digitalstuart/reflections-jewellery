@@ -18,7 +18,7 @@ body {
 }
 
 .view-2 {
-    background: url('/assets/images/earring.jpg') no-repeat center center;
+    background: url('/assets/images/background.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -122,13 +122,14 @@ h1 {
 
 ul {
     list-style-type: none;
+    padding-inline-start: 0px;
 }
 
 #name, #email {
     margin-bottom: 10px;
 }
 
-#text, #file {
+#text {
     padding-bottom: 5px;
 }
 
@@ -150,8 +151,8 @@ ul. button {
     width: 150px;
 }
 
-#Facebook {
-    margin-top: 15px;
+#Facebook {    
+    padding-top: 48px;
 }
 
 .label {
@@ -160,7 +161,7 @@ ul. button {
 
 .footer {    
     padding-top: 10px;   
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     color: #48a0c1; 
     background-color: #36454f;
@@ -181,8 +182,7 @@ ul. button {
 }
 
 #photo {
-    column-count: 2;
-    padding-bottom: 20px;
+    column-count: 2;    
 }
 
 #photo img{
@@ -190,6 +190,7 @@ ul. button {
 }
 
 #about {
+    padding-top: 48px;
     padding-bottom: 50px;
 }
 
@@ -242,12 +243,4 @@ ul. button {
 .button:hover span:after {
   opacity: 1;
   right: 0;
-}
-
-@media screen and (max-width: 576px){
-    
-    #about {
-    padding-top: 10px;
-    }
-
 }
