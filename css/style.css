@@ -142,6 +142,10 @@ ul {
     font-family: "Niconne", sans-serif;    
 }
 
+textarea, label, input, h1, .fb-page {
+    max-width: 100%;
+}
+
 ul. button {
     width: 150px;
 }
