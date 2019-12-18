@@ -11,20 +11,29 @@ body {
     margin-right: 0;
 }
 
-.intro-2 {
-    background: url('/assets/images/reflections4.jpg') no-repeat center center;
+.intro-2 {    
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.3)), url('/assets/images/reflections4.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .view-2 {
-    background: url('/assets/images/background.jpg') no-repeat center center;
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.3)), url('/assets/images/background.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .view-3 {
-    background: url('/assets/images/reflections2.jpeg') no-repeat center center;
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.3)), url('/assets/images/reflections2.jpeg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     padding-top: 48px;
@@ -89,6 +98,10 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    margin-bottom: 50px;
+}
+
 #form {
     font-size: 16px;  
     font-weight: 700;
@@ -99,6 +112,7 @@ h1 {
 }
 
 .fa-ul {
+    padding-top: 33px;
     font-size: 16px;
     margin-left: 0;
     font-weight: 700;
