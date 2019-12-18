@@ -33,10 +33,9 @@ body {
 }
 
 .view-3 {
-    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.3)), url('/assets/images/reflections2.jpeg') no-repeat center center;
+    background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url('/assets/images/reflections2.jpeg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
-    padding-top: 48px;
+    background-attachment: fixed;    
 }
 
 .navbar {    
@@ -125,6 +124,11 @@ h2 {
     left: -0.5em;
     }
 
+.who-where-what {
+    padding: 50px 0px 50px;
+    margin-bottom: 0px;
+    }
+
 .contact-form {
     list-style-type: none;
     padding-inline-start: 0px;
@@ -192,7 +196,7 @@ ul. button {
 }
 
 #gallery {
-    margin-top: 1rem;
+    padding: 48px 0px 48px;
     }
 
 #photo {
@@ -211,6 +215,10 @@ ul. button {
     padding-top: 48px;    
 }
 
+.about-text {
+    margin-top: 20px;
+    }
+
 #about p {     
     font-size: 12px;  
     font-weight: 400;          
@@ -218,14 +226,26 @@ ul. button {
     color: white;         
 }
 
+.fa-graduation-cap {
+    font-size: 13px;
+}
+
+.fa-map-marker-alt {
+    padding-right: 4px;
+}
+
+.fa-user {
+    padding-right: 2px;
+}
+
 .back-to-top {
     font-size: 0.9rem;
 }
 
 #image {
-    border: 5px solid;
+    border: 5px solid #36454f;
     float: left;
-    margin: 0 20px 20px 0;
+    margin-right: 20px;
 }
 
 .block-divider {
