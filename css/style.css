@@ -76,11 +76,16 @@ body {
     font-weight: 700;  
     line-height: 1.5;  
     margin-top: 110px;   
-    color: #23353b;    
+    color: white;  
+}
+
+h1, h2, small {
+    font-weight: 700;
+    color: white;  
 }
 
 h1 {
-    font-weight: 700;  
+    text-transform: uppercase;
 }
 
 #form {
@@ -97,6 +102,7 @@ h1 {
     margin-left: 0;
     font-weight: 700;
     line-height: 1.5; 
+    color: white;
 }
 
 .fa-li {
@@ -108,22 +114,15 @@ h1 {
     list-style-type: none;
     padding-inline-start: 0px;
     margin-top: 1rem;
+    margin-bottom: 0;
 }
 
 #name, #email {
     margin-bottom: 10px;
 }
 
-#text {
-    padding-bottom: 5px;
-}
-
-#submit {
-    padding: 5px;     
-}
-
-#reset {
-    margin: 0;       
+#text, #submit {
+    margin-bottom: 7px;
 }
 
 textarea, label, input, h1, .fb-page {
@@ -141,6 +140,7 @@ ul. button {
 
 .label {
     padding-right: 2px;
+    color: white;
 }
 
 .footer {        
@@ -187,7 +187,8 @@ ul. button {
 #about p {     
     font-size: 12px;  
     font-weight: 400;          
-    text-align: left;           
+    text-align: left;  
+    color: white;         
 }
 
 #image {
@@ -200,7 +201,7 @@ ul. button {
     width: 100px;
     height: 5px;
     border: 0;
-    background-color: #3d6473;
+    background-color: #36454f;
 }
 
 .button {
@@ -245,4 +246,9 @@ ul. button {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.submit-button {
+    padding: 0;
+    margin: 0;
 }
