@@ -99,6 +99,7 @@ h1 {
 
 h2 {
     margin-bottom: 50px;
+    line-height: 1.5;
 }
 
 #form {
@@ -115,7 +116,7 @@ h2 {
     font-size: 16px;
     margin-left: 0;
     font-weight: 700;
-    line-height: 1.5; 
+    line-height: 2; 
     color: white;
 }
 
@@ -124,9 +125,14 @@ h2 {
     left: -0.5em;
     }
 
-.who-where-what {
-    padding: 50px 0px 50px;
-    margin-bottom: 0px;
+.who-where-what {   
+    padding: 0;
+    margin: 0;    
+    font-size: 13px;
+    }
+
+.who-where-what-position {
+    vertical-align: top;
     }
 
 .contact-form {
@@ -203,7 +209,7 @@ ul. button {
     column-count: 2;    
 }
 
-#photo img{
+#photo img {
     width:100%;
 }
 
@@ -220,14 +226,14 @@ ul. button {
     }
 
 #about p {     
-    font-size: 12px;  
+    font-size: 13px;  
     font-weight: 400;          
     text-align: left;  
     color: white;         
 }
 
 .fa-graduation-cap {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .fa-map-marker-alt {
