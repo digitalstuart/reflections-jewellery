@@ -27,6 +27,7 @@ body {
     background: url('/assets/images/reflections2.jpeg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+    padding-top: 48px;
 }
 
 .navbar {    
@@ -119,10 +120,16 @@ h1 {
 
 #name, #email {
     margin-bottom: 10px;
+    width: 100%;
 }
 
-#text, #submit {
+#text {
     margin-bottom: 7px;
+    width: 100%;
+    }
+
+#submit {
+    margin-bottom: 4px;
 }
 
 textarea, label, input, h1, .fb-page {
@@ -152,16 +159,22 @@ ul. button {
 }
 
 .list-inline {
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .list-inline-item {
-    font-size: 1rem;
-    font-weight: 400;    
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .list-inline-item a {
     color: #48a0c1;
+}
+
+.list-inline-item:not(:last-child){
+    margin-right: 12px;
 }
 
 #gallery {
@@ -191,6 +204,10 @@ ul. button {
     color: white;         
 }
 
+.back-to-top {
+    font-size: 0.9rem;
+}
+
 #image {
     border: 5px solid;
     float: left;
@@ -210,10 +227,9 @@ ul. button {
   border: none;
   color: #48a0c1;
   text-align: center;
-  font-size: 27px;
-  
+  font-size: 27px;  
   padding: 5px;
-  width: 150px;
+  width: 50%;
   transition: all 0.5s;
   cursor: pointer;
   margin-bottom: 12px;
@@ -248,7 +264,6 @@ ul. button {
   right: 0;
 }
 
-.submit-button {
-    padding: 0;
-    margin: 0;
+.submit-button {    
+    width: 150px;
 }
