@@ -12,7 +12,7 @@ body {
 }
 
 .intro-2 {    
-    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.3)), url('/assets/images/reflections4.jpg') no-repeat center center;
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.3)), url('/assets/images/reflections5-hero.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -33,7 +33,13 @@ body {
 }
 
 .view-3 {
-    background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url('/assets/images/reflections2.jpeg') no-repeat center center;
+    background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url('/assets/images/reflections2.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+.view-4 {
+    background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url('/assets/images/county-kerry.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;    
 }
@@ -60,12 +66,14 @@ body {
     color: #48a0c1;
     padding-top: 2px;    
 }
+
 .navbar-toggler {    
     float: right;
     text-align: right;
     margin: 10px 15px 5px 15px;
     padding: 5px;
 }
+
 .nav-item {
     padding-bottom: 5px;
 }
@@ -105,10 +113,7 @@ h2 {
 #form {
     font-size: 16px;  
     font-weight: 700;
-}
-
-.contact {
-    padding-top: 50px;    
+    padding-top: 64px;   
 }
 
 .fa-ul {
@@ -133,12 +138,12 @@ h2 {
 
 .who-where-what-position {
     vertical-align: top;
+    padding-left: 20px;
     }
 
 .contact-form {
     list-style-type: none;
-    padding-inline-start: 0px;
-    margin-top: 1rem;
+    padding-inline-start: 0px;    
     margin-bottom: 0;
 }
 
@@ -167,6 +172,10 @@ ul. button {
 
 #Facebook {    
     padding-top: 48px;
+}
+
+#fb-container {
+    padding-bottom: 48px;
 }
 
 .label {
@@ -202,15 +211,39 @@ ul. button {
 }
 
 #gallery {
-    padding: 48px 0px 48px;
+    padding: 64px 0px 48px;
     }
 
 #photo {
-    column-count: 2;    
+    column-count: 2;  
+    column-gap: 0;  
 }
 
 #photo img {
     width:100%;
+}
+
+.photo-1 {
+    position: relative;    
+}
+
+.photo-1 img {
+    filter: brightness(70%);
+}
+
+.photo-1 p {
+    margin-bottom: 5px;
+}
+
+.text-block {
+  position: absolute;  
+  bottom: 0;  
+  background-color: transparent;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 10px;
 }
 
 .div-about {
@@ -218,7 +251,7 @@ ul. button {
 }
 
 #about {
-    padding-top: 48px;    
+    padding-top: 64px;    
 }
 
 .about-text {
@@ -251,7 +284,6 @@ ul. button {
 #image {
     border: 5px solid #36454f;
     float: left;
-    margin-right: 20px;
 }
 
 .block-divider {
