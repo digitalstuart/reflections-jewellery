@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap');
 
-html, body, header, .view {
+html, body, header, .view {   
   height: 100%;  
   font-family: "Libre+Baskerville", sans-serif;
   font-size: 16px;
@@ -19,12 +19,8 @@ body {
     position: relative;
 }
 
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 65%;
-  -ms-transform: translateY(-65%);
-  transform: translateY(-65%);
+.intro-padding {
+    padding-top: 150px;
 }
 
 .view-2 {
@@ -207,20 +203,22 @@ label {
 
 #gallery {
     padding-bottom: 24px;
-    color: black;
-    }
+        }
 
 #gallery img {
     max-width: 100%;
     max-height: 100%;
 }
 
-.photo-1, .photo-2, .photo-3, .photo-4 {
-    border: 1px solid black;
+#gallery p {
+    margin: 0;
+}
+
+.photo-1, .photo-2, .photo-3, .photo-4 {    
     padding: 5px;
-    margin: 5px 5px 10px 5px;
-    max-width: 100%;
-    max-height: 100%;
+    margin: 5px 5px 10px 5px;    
+    background-color: #36454f;
+    color: white;    
 }
 
 .div-about {
@@ -272,7 +270,7 @@ label {
   text-align: center;
   font-size: 27px;  
   padding: 5px;
-  width: 50%;
+  width: 200px;  
   transition: all 0.5s;
   cursor: pointer;
   margin-bottom: 12px;
@@ -305,8 +303,4 @@ label {
 .button:hover span:after {
   opacity: 1;
   right: 0;
-}
-
-.submit-button {    
-    width: 150px;
 }
