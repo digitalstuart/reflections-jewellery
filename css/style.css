@@ -173,6 +173,10 @@ ul. button {
     padding-bottom: 48px;
 }
 
+#fb-image {
+    max-width: 100%;
+}
+
 label {
     padding-right: 2px;
     color: white;
@@ -328,9 +332,6 @@ label {
     padding-top: 200px;
 }
 
-#about p {                 
-    text-align: center;}
-
 #Facebook {    
     padding-top: 0px;
 }  
@@ -344,6 +345,15 @@ label {
 .view-3 {
     background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url("../assets/images/county-kerry.jpg") no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;   
+    background-attachment: fixed;}
+
+}
+
+@media only screen and (min-width: 992px) {
+
+
+#about p {                 
+    text-align: center;
+    }
 
 }
