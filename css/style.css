@@ -43,7 +43,7 @@ body {
     font-family: "Niconne", sans-serif;
     font-size: 27px;
     color: #48a0c1;
-    margin: 10px 10px 5px 15px;
+    margin: 15px 10px 10px 15px;
 }
 
 .navbar-collapse {
@@ -60,8 +60,9 @@ body {
 .navbar-toggler {    
     float: right;
     text-align: right;
-    margin: 10px 15px 5px 15px;
+    margin: 15px 15px 10px 15px;
     padding: 5px;
+    border: 0;
 }
 
 .nav-item {
@@ -217,8 +218,7 @@ label {
 .photo-1, .photo-2, .photo-3, .photo-4 {    
     padding: 5px;
     margin: 5px 5px 10px 5px;    
-    background-color: #36454f;
-    color: white;    
+    color: black;    
 }
 
 .div-about {
@@ -303,4 +303,47 @@ label {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+
+.nav-item {
+    margin-top: 20px;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 20px;  
+}
+
+.intro-2 {    
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.5)), url("../assets/images/reflections2-hero-desktop.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.intro-padding {
+    padding-top: 200px;
+}
+
+#about p {                 
+    text-align: center;}
+
+#Facebook {    
+    padding-top: 0px;
+}  
+
+.view-2 {
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.8)), url("../assets/images/background.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.view-3 {
+    background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url("../assets/images/county-kerry.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;   
+
 }
