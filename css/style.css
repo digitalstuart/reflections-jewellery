@@ -26,15 +26,19 @@ body {
 }
 
 .view-2 {
-    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.8)), url("../assets/images/county-kerry.jpg") no-repeat center center;
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.8)), url("../assets/images/county-kerry.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .view-3 {
-    background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url("../assets/images/reflections2.jpg") no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;    
+    background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url("../assets/images/reflections2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
 }
 .navbar {    
     background-color: #36454f;
@@ -350,9 +354,11 @@ div .fb-page[data-width="500"] { width: 480px; }
 }
 
 .intro-2 {    
-    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.5)), url("../assets/images/reflections2-hero-desktop.jpg") no-repeat center center;
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.5)), url("../assets/images/reflections2-hero-desktop.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
     position: relative;
 }
 
@@ -365,16 +371,19 @@ div .fb-page[data-width="500"] { width: 480px; }
 }  
 
 .view-2 {
-    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.8)), url("../assets/images/background.jpg") no-repeat center center;
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.8)), url("../assets/images/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .view-3 {
     background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url("../assets/images/county-kerry.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;}
-
 }
 
 @media only screen and (min-width: 750px) {
