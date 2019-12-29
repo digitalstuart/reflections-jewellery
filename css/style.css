@@ -310,6 +310,12 @@ label {
 
 /* Media queries */
 
+@media only screen and (min-width: 992px) and (max-width: 1010px) {
+
+div .fb-page[data-width="500"] { width: 480px; }
+
+}
+
 @media only screen and (min-width: 310px) and (max-width: 429px) {
 
 div .fb-page[data-width="500"] { width: 290px; }
@@ -392,12 +398,6 @@ div .fb-page[data-width="500"] { width: 400px; }
 .form-margin {
     padding-right: 15px;
 }
-
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1010px) {
-
-div .fb-page[data-width="500"] { width: 480px; }
 
 }
 
