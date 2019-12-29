@@ -173,10 +173,6 @@ ul. button {
     padding-bottom: 48px;
 }
 
-#fb-image {
-    max-width: 100%;
-}
-
 label {
     padding-right: 2px;
     color: white;
@@ -206,23 +202,9 @@ label {
     margin-right: 5px;
 }
 
-#gallery {
-    padding-bottom: 24px;
-        }
-
-#gallery img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#gallery p {
-    margin: 0;
-}
-
 .photo-1, .photo-2, .photo-3, .photo-4 {    
     padding: 5px;
-    margin: 5px 5px 10px 5px;    
-    color: black;    
+    color: black;  
 }
 
 .div-about {
@@ -264,6 +246,22 @@ label {
     height: 5px;
     border: 0;
     background-color: #36454f;
+}
+
+.row-products {
+  display: flex;
+  padding-bottom: 24px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.col-products {
+  flex: 1;  
+}
+
+.col-products p {
+    margin-top: 16px;
+    margin-bottom: 0px;
 }
 
 .button {
@@ -311,6 +309,15 @@ label {
 
 /* Media queries */
 
+@media only screen and (min-width: 750px) {
+
+.photo-1, .photo-2, .photo-3, .photo-4 {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+}
+
 @media only screen and (min-width: 768px) {
 
 .nav-item {
@@ -351,9 +358,21 @@ label {
 
 @media only screen and (min-width: 992px) {
 
-
 #about p {                 
     text-align: center;
+    max-width: 100%;
     }
+
+.form-margin {
+    padding-right: 15px;
+}
+
+}
+
+@media only screen and (min-width: 1128px) {
+
+.photo-4 {
+    display: none;    
+}
 
 }
