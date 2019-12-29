@@ -395,11 +395,9 @@ div .fb-page[data-width="500"] { width: 400px; }
 
 }
 
-@media only screen and (min-width: 992px; max-width: 1010px) {
+@media only screen and (min-width: 992px) and (max-width: 1010px) {
 
-.fb-page {
-    width: 480;
-}
+div .fb-page[data-width="500"] { width: 480px; }
 
 }
 
