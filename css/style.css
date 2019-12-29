@@ -171,6 +171,7 @@ ul. button {
 
 #fb-container {
     padding-bottom: 48px;
+    width: 100%;
 }
 
 label {
@@ -309,6 +310,18 @@ label {
 
 /* Media queries */
 
+@media only screen and (min-width: 310px) and (max-width: 429px) {
+
+div .fb-page[data-width="500"] { width: 300px; }
+
+}
+
+@media only screen and (min-width: 430px) and (max-width: 515px) {
+
+div .fb-page[data-width="500"] { width: 400px; }
+
+}
+
 @media only screen and (min-width: 750px) {
 
 .photo-1, .photo-2, .photo-3, .photo-4 {
@@ -365,6 +378,14 @@ label {
 
 .form-margin {
     padding-right: 15px;
+}
+
+}
+
+@media only screen and (min-width: 992px; max-width: 1010px) {
+
+.fb-page {
+    width: 480;
 }
 
 }
