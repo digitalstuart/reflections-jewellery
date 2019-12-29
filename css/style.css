@@ -100,12 +100,12 @@ h3 {
 
 .products {
     color: black;
-    padding-top: 64px;
+    padding-top: 70px;
 }
 
 #form {
     font-size: 16px;      
-    padding-top: 64px;   
+    padding-top: 70px;   
 }
 
 .fa-ul {
@@ -213,7 +213,7 @@ label {
 }
 
 #about {
-    padding-top: 64px;    
+    padding-top: 70px;    
 }
 
 .about-text {
@@ -310,42 +310,29 @@ label {
 
 /* Media queries */
 
+@media only screen and (min-width: 1128px) {
+
+.photo-4 {
+    display: none;    
+}
+
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1010px) {
 
 div .fb-page[data-width="500"] { width: 480px; }
 
 }
 
-@media only screen and (min-width: 310px) and (max-width: 429px) {
+@media only screen and (min-width: 992px) {
 
-div .fb-page[data-width="500"] { width: 290px; }
+#about p {                 
+    text-align: center;
+    max-width: 100%;
+    }
 
-}
-
-@media only screen and (min-width: 430px) and (max-width: 515px) {
-
-div .fb-page[data-width="500"] { width: 400px; }
-
-}
-
-@media only screen and (max-width: 400px) {
-
-.responsive-images {
-  max-width: 100%;
-  height: auto;
-}
-
-.photo-3, .photo-4 {
-    display: none;    
-}
-
-}
-
-@media only screen and (min-width: 750px) {
-
-.photo-1, .photo-2, .photo-3, .photo-4 {
-    margin-left: 3px;
-    margin-right: 3px;
+.form-margin {
+    padding-right: 15px;
 }
 
 }
@@ -388,22 +375,35 @@ div .fb-page[data-width="500"] { width: 400px; }
 
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 750px) {
 
-#about p {                 
-    text-align: center;
-    max-width: 100%;
-    }
-
-.form-margin {
-    padding-right: 15px;
+.photo-1, .photo-2, .photo-3, .photo-4 {
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 }
 
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 430px) and (max-width: 515px) {
 
-.photo-4 {
+div .fb-page[data-width="500"] { width: 400px; }
+
+}
+
+@media only screen and (min-width: 310px) and (max-width: 429px) {
+
+div .fb-page[data-width="500"] { width: 290px; }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+.responsive-images {
+  max-width: 100%;
+  height: auto;
+}
+
+.photo-3, .photo-4 {
     display: none;    
 }
 
