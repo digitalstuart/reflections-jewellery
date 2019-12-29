@@ -312,13 +312,26 @@ label {
 
 @media only screen and (min-width: 310px) and (max-width: 429px) {
 
-div .fb-page[data-width="500"] { width: 300px; }
+div .fb-page[data-width="500"] { width: 290px; }
 
 }
 
 @media only screen and (min-width: 430px) and (max-width: 515px) {
 
 div .fb-page[data-width="500"] { width: 400px; }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+.responsive-images {
+  max-width: 100%;
+  height: auto;
+}
+
+.photo-3, .photo-4 {
+    display: none;    
+}
 
 }
 
