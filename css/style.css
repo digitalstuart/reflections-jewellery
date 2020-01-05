@@ -119,10 +119,7 @@ h3 {
   transition: all 0.5s;
   cursor: pointer;
   margin-bottom: 12px;
-}
-
-.button a {
-    color: #48a0c1;
+  -webkit-appearance: button;
 }
 
 .button span {
@@ -130,6 +127,7 @@ h3 {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  color: #48a0c1;
 }
 
 .button span:after {
@@ -139,6 +137,7 @@ h3 {
   top: 0;
   right: -20px;
   transition: 0.5s;
+  color: #48a0c1;
 }
 
 .button:hover span {
@@ -217,7 +216,7 @@ h3 {
 
 .contact-form {
     list-style-type: none;
-    padding-inline-start: 0px;    
+    padding-left: 0px;  
     margin-bottom: 0;
 }
 
