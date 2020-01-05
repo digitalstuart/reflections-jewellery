@@ -120,6 +120,7 @@ h3 {
   cursor: pointer;
   margin-bottom: 12px;
   -webkit-appearance: button;
+  -moz-appearance: button;
 }
 
 .button span {
