@@ -210,6 +210,11 @@ h3 {
     color: white;         
 }
 
+#contact-form-link {
+    color: white; 
+    text-decoration: underline;
+}
+
 /* CONTACT FORM */
 
 #contact {      
