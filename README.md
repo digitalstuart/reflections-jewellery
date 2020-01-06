@@ -1,6 +1,6 @@
 # Reflections Jewellery
 
-1st image here from ami.responsivedesign.is.
+![alt text](https://i.imgur.com/jEgUjbS.jpg "Reflections Jewellery website as seen on different devices")
 
 Before beginning this course, a family friend said that when I'm finished they would be interested in commissioning a website from me for their new small business selling handmade jewellery.
 
