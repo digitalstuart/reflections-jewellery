@@ -1,5 +1,7 @@
 # Reflections Jewellery
 
+1st image here?
+
 Before beginning this course, a family friend said that when I'm finished they would be interested in commissioning a website from me for their new small business selling handmade jewellery.
 
 So I saw our first milestone project as the perfect opportunity for starting this! Perhaps it will ultimately become my first professionally produced site as a software developer.
@@ -83,3 +85,35 @@ It also features an embedded Facebook widget, with reference to [FB's Page Plugi
     * The LinkedIn link opens the correct page in a new tab
     * The email icon opens the user's default email client and the desired 'send to' email address is automatically populated
     * The 'back to top' link jumps the user back up to the landing page
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+## Deployment
+
+I went to Settings > GitHub Pages from my 'reflections-jewellery' GitHub repository.
+
+Then I selected 'master branch' from the Source dropdown.
+
+My site was then automatically published at https://digitalstuart.github.io/reflections-jewellery.
+
+## Credits
+
+### Content
+
+* I used the header and fixed navbar from MDBoostrap - https://mdbootstrap.com/snippets/jquery/mdbootstrap/102551.
+* The button animation for adding an arrow on hover was sourced from https://www.w3schools.com/howto/howto_css_animate_buttons.asp.
+* The 'linear-gradient' CSS styling for better contrast between background images and headings/text came from https://teamtreehouse.com/community/black-transparent-overlay-on-cover-image.
+* The 'grabber' in the bottom right corner of the Contact form's text area was disabled with help from the 'Styling Text areas' section here - https://www.w3schools.com/css/css_form.asp.
+* Elements of the Contact form were given a 'max-width' value, with reference to https://stackoverflow.com/questions/39068128/how-can-i-make-a-textarea-that-fits-within-the-width-of-the-current-viewport.
+* For maintaining the same height of parent divs when any of the Products picture caption text spread onto two lines, I sourced code from the 'Flexbox' answer at https://stackoverflow.com/questions/2997767/how-do-i-keep-two-side-by-side-divs-the-same-height.
+* For the 'About' page, having the 'who/where/what' list vertically aligned next to the thumbnail image was achieved with code from https://css-tricks.com/almanac/properties/v/vertical-align.
+* The basic formatting of social media links in the footer comes from the Rosie Odenkirk resume project in Code Institute's User Centric Frontend Development module.
+* 'block-divider' comes from the whiskey walkthrough project as part of 'Bootstrapping Your Next Big Idea With Bootstrap 4' in the Code Institute course.
+
+### Media
+
+The photos used in this site were provided by Marianne McGrath or sourced as copyright-free images from the internet.
+
+### Acknowledgments
+
+Thank you to Marianne McGrath for letting me run wild and free on the internet with her business! I also received inspiration for my site layout and theme from Matt Rudge's whiskey walkthrough project.
