@@ -1,14 +1,10 @@
 # Reflections Jewellery
 
----
-
 Before beginning this course, a family friend said that when I'm finished they would be interested in commissioning a website from me for their new small business selling handmade jewellery.
 
 So I saw our first milestone project as the perfect opportunity for starting this! Perhaps it will ultimately become my first professionally produced site as a software developer.
 
 ## UX
-
----
 
 My idea for the site was partly inspired by the whiskey walkthrough project we have previously completed on the course. I liked the way it showcased simplicity yet style.
 
@@ -26,11 +22,11 @@ The website is primarily intended to be a promotional tool for the business, wit
 
 I used Balsamiq to create some basic wireframes for the project, they further illustrate the layout and content ideas which I outlined above.
 
-![alt text](https://imgur.com/a/NDD1RnR "Reflections Jewellery wireframes")
+![alt text](https://i.imgur.com/DCPpLzY.png "Reflections Jewellery wireframes")
+![alt text](https://i.imgur.com/e10x0jY.png "Reflections Jewellery wireframes")
+![alt text](https://i.imgur.com/TcNUdfq.png "Reflections Jewellery wireframes")
 
 ## Features
-
----
 
 ### Existing Features
 
@@ -51,4 +47,3 @@ I used Balsamiq to create some basic wireframes for the project, they further il
 
 ## Technologies
 
----
