@@ -6,6 +6,8 @@ So I saw our first milestone project as the perfect opportunity for starting thi
 
 ## UX
 
+5 Planes?
+
 My idea for the site was partly inspired by the whiskey walkthrough project we have previously completed on the course. I liked the way it showcased simplicity yet style.
 
 The basic 'single page' approach seems like a very good fit for a small business which has really only just got up and running. There aren't many products to showcase yet, nor is there a significant amount of information to present.
@@ -47,3 +49,37 @@ I used Balsamiq to create some basic wireframes for the project, they further il
 
 ## Technologies
 
+This project uses HTML and CSS, including the Bootstrap framework and library primarily for the grid system.
+
+It also features an embedded Facebook widget, with reference to [FB's Page Plugin documentation](https://developers.facebook.com/docs/plugins/page-plugin/) and using [relevant code from Stack Overflow](https://stackoverflow.com/questions/34761500/how-to-make-facebook-social-plugin-fully-responsive).
+
+## Testing
+
+1. Navbar
+    * Clicking on the site logo and 'Home' option both redirect correctly to /index.html.
+    * Clicking on 'About' jumps the user down to the 'About' section
+    * Clicking on 'Contact' jumps the user down to the 'Contact' section
+    * Clicking on 'Products' jumps the user down to the 'Products' section
+    * In mobile view, the burger icon correctly displays the dropdown menu. All the menu links behave in the expected way, as above
+    
+2. 'Get in touch' button
+    * This has the desired animated hover effect on desktop. When clicked, it takes the user directly to the Contact form
+
+3. Contact form
+    * Click 'Submit' with no fields completed > 'Please fill out this field' error message appears for the 'Name' field
+    * Click 'Submit' with only the 'Name' field completed > 'Please fill out this field' error message appears for the 'Email' field
+    * Click 'Submit' with 'Name' field completed and incomplete email address > 'Please include an @ in the email address' error message appears for the 'Email' field
+    * Click 'Submit' with 'Name' and 'Email' fields completed > 'Please fill out this field' error message appears for the 'Message' field
+    * When user starts typing in the 'Message' field > Placeholder text disappears
+    * When all fields are completed, the 'Submit' button can be successfully clicked on with no error messages appearing
+    * 'Submit' button has the desired animated hover effect on desktop
+
+4. Facebook widget
+    * The Facebook embed has its own scrolling functionality
+    * The page title, 'Like Page' and 'Share' buttons are all clickable and behave as expected
+
+5. Footer
+    * The Facebook link opens the correct page in a new tab
+    * The LinkedIn link opens the correct page in a new tab
+    * The email icon opens the user's default email client and the desired 'send to' email address is automatically populated
+    * The 'back to top' link jumps the user back up to the landing page
