@@ -118,10 +118,7 @@ h3 {
   width: 200px;  
   transition: all 0.5s;
   cursor: pointer;
-  margin-bottom: 12px;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
+  margin-bottom: 12px;  
   }
 
 .button span {
@@ -407,6 +404,10 @@ div .fb-page[data-width="500"] { width: 290px; }
 }
 
 @media only screen and (max-width: 400px) {
+
+#submit {
+    text-align: center;
+}
 
 .responsive-images {
   max-width: 100%;
