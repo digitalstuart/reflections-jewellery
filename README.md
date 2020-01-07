@@ -30,7 +30,7 @@ I used Balsamiq to create some basic wireframes for the project, they further il
 
 ## Features
 
-### Existing Features
+### Existing features
 
 * The navigation menu provides clear and simple links to the site's different content areas.
 * The landing page features a 'call to action' button, while also informing the user what the product is and how they can make bespoke orders.
@@ -86,13 +86,13 @@ It also features an embedded Facebook widget, with reference to [FB's Page Plugi
     * The 'back to top' link jumps the user back up to the landing page
 
 The site was manually viewed and tested on the following devices and browsers:
-    * Samsung Galaxy A5/Chrome, Messenger browser & Gmail browser
-    * iPad Air/Safari
-    * iPhone X & XS/Safari
-    * iPad Mini 2/Safari
-    * iPhone 7 & 8/Safari
-    * Windows 10 laptop/Chrome, Firefox & Edge
-    * Mac/Chrome, Safari & Firefox
+* Samsung Galaxy A5/Chrome, Messenger browser & Gmail browser
+* iPad Air/Safari
+* iPhone X & XS/Safari
+* iPad Mini 2/Safari
+* iPhone 7 & 8/Safari
+* Windows 10 laptop/Chrome, Firefox & Edge
+* Mac/Chrome, Safari & Firefox
 
 Testing on iOS mobile/tablet devices identified a previously known issue, where using 'background-attachment: fixed;' led to poorly sized images and no background scrolling effect. Background-attachment was thus changed to 'scroll' in order to fix the issue. 
 
