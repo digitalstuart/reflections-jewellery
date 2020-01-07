@@ -8,8 +8,6 @@ So I saw our first milestone project as the perfect opportunity for starting thi
 
 ## UX
 
-5 Planes?
-
 My idea for the site was partly inspired by the whiskey walkthrough project we have previously completed on the course. I liked the way it showcased simplicity yet style.
 
 The basic 'single page' approach seems like a very good fit for a small business which has really only just got up and running. There aren't many products to showcase yet, nor is there a significant amount of information to present.
@@ -21,7 +19,7 @@ The website is primarily intended to be a promotional tool for the business, wit
 ### User Stories
 
 * As the business owner, I want to be able to advertise my products, provide information about them and tell prospective customers about my design background. I want people to be able to easily contact me so that I can receive orders in a professional manner. 
-* As a prospective customer, I want to be able to see example images of the product, find out more information about them and make an order enquiry.
+* As a prospective customer, I want to be able to see example images of the products, find out more information about them and make an order enquiry.
 * As an organiser of markets/fairs/shows, I want to be able to find local artisans who could exhibit at my events. I need to be able to see that they have a professional approach and provide quality products.
 
 I used Balsamiq to create some basic wireframes for the project, they further illustrate the layout and content ideas which I outlined above.
@@ -53,7 +51,7 @@ I used Balsamiq to create some basic wireframes for the project, they further il
 
 This project uses HTML and CSS, including the Bootstrap framework and library primarily for the grid system.
 
-It also features an embedded Facebook widget, with reference to [FB's Page Plugin documentation](https://developers.facebook.com/docs/plugins/page-plugin/) and using [relevant code from Stack Overflow](https://stackoverflow.com/questions/34761500/how-to-make-facebook-social-plugin-fully-responsive).
+It also features an embedded Facebook widget, with reference to [FB's Page Plugin documentation](https://developers.facebook.com/docs/plugins/page-plugin/).
 
 ## Testing
 
@@ -75,6 +73,7 @@ It also features an embedded Facebook widget, with reference to [FB's Page Plugi
     * When user starts typing in the 'Message' field > Placeholder text disappears
     * When all fields are completed, the 'Submit' button can be successfully clicked on with no error messages appearing
     * 'Submit' button has the desired animated hover effect on desktop
+    * The form has no action or method, however the values entered into the input fields are reflected in the resulting URL upon clicking 'Submit', e.g. https://digitalstuart.github.io/reflections-jewellery/?name=Stuart+Richards&email=stuartrichardsdigital%40gmail.com&text=This+is+a+test+message
 
 4. Facebook widget
     * The Facebook embed has its own scrolling functionality
@@ -86,7 +85,16 @@ It also features an embedded Facebook widget, with reference to [FB's Page Plugi
     * The email icon opens the user's default email client and the desired 'send to' email address is automatically populated
     * The 'back to top' link jumps the user back up to the landing page
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The site was manually viewed and tested on the following devices and browsers:
+    * Samsung Galaxy A5/Chrome, Messenger browser & Gmail browser
+    * iPad Air/Safari
+    * iPhone X & XS/Safari
+    * iPad Mini 2/Safari
+    * iPhone 7 & 8/Safari
+    * Windows 10 laptop/Chrome, Firefox & Edge
+    * Mac/Chrome, Safari & Firefox
+
+Testing on iOS mobile/tablet devices identified a previously known issue, where using 'background-attachment: fixed;' led to poorly sized images and no background scrolling effect. Background-attachment was thus changed to 'scroll' in order to fix the issue. 
 
 Finally, I also ran my code through the W3C validator tools for HTML/CSS and corrected the small number of errors which appeared.
 
@@ -102,7 +110,7 @@ My site was then automatically published at https://digitalstuart.github.io/refl
 
 ### Content
 
-* I used the header and fixed navbar from MDBoostrap - https://mdbootstrap.com/snippets/jquery/mdbootstrap/102551.
+* I used the header and fixed navbar from MDBootstrap - https://mdbootstrap.com/snippets/jquery/mdbootstrap/102551.
 * The button animation for adding an arrow on hover was sourced from https://www.w3schools.com/howto/howto_css_animate_buttons.asp.
 * The 'linear-gradient' CSS styling for better contrast between background images and headings/text came from https://teamtreehouse.com/community/black-transparent-overlay-on-cover-image.
 * For icons replacing bullet points in a list, I used https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list.
@@ -112,12 +120,11 @@ My site was then automatically published at https://digitalstuart.github.io/refl
 * For the 'About' page, having the 'who/where/what' list vertically aligned next to the thumbnail image was achieved with code from https://css-tricks.com/almanac/properties/v/vertical-align.
 * The basic formatting of social media links in the footer comes from the Rosie Odenkirk resume project in Code Institute's User Centric Frontend Development module.
 * 'block-divider' and 'list-inline-item:not(:last-child)' both come from the whiskey walkthrough project as part of 'Bootstrapping Your Next Big Idea With Bootstrap 4' in the Code Institute course.
-* For specifying the width of the Facebook embed according to different browser sizes, I used the 'data-width' method from http://jsfiddle.net/JamesKyle/8ntfZ.
 
 ### Media
 
 The photos used in this site were provided by Marianne McGrath or sourced as copyright-free images from the internet.
 
-### Acknowledgments
+### Acknowledgements
 
 Thank you to Marianne McGrath for letting me run wild and free on the internet with her business! I also received inspiration for my site layout and theme from Matt Rudge's whiskey walkthrough project.
