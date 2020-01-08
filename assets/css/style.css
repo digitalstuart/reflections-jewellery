@@ -24,9 +24,11 @@ h1 {
     text-transform: uppercase;
 }
 
-h3 {
+.homepage-heading {
+    font-size: 27px;
     margin-bottom: 40px;
     line-height: 1.5;
+    text-transform: none;
 }
 
 .block-divider {
@@ -341,9 +343,15 @@ form p {
 
 @media only screen and (min-width: 992px) {
 
-#about p {                 
-    max-width: 100%;
+.about-text {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
     }
+
+#about p {
+    text-align: center;
+}
 
 .form-margin {
     padding-right: 15px;
@@ -383,6 +391,12 @@ form p {
 .view-3 {
     background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url("../images/background.jpg") no-repeat center center scroll;
     background-size: cover;
+}
+
+.homepage-heading {
+    text-shadow: 1px 1px;
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 }
