@@ -84,18 +84,18 @@ h3 {
 }
 
 .intro-2 {    
-    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.5)), url("../assets/images/reflections5-hero.jpg") no-repeat center center scroll;
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.5)), url("../images/reflections5-hero.jpg") no-repeat center center scroll;
     background-size: cover;
     position: relative;
 }
 
 .view-2 {
-    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.8)), url("../assets/images/reflections2.jpg") no-repeat center center scroll;
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.8)), url("../images/reflections2.jpg") no-repeat center center scroll;
     background-size: cover;
 }
 
 .view-3 {
-    background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url("../assets/images/county-kerry.jpg") no-repeat center center scroll;
+    background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url("../images/county-kerry.jpg") no-repeat center center scroll;
     background-size: cover;    
 }
 
@@ -358,18 +358,18 @@ form p {
 }
 
 .intro-2 {    
-    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.5)), url("../assets/images/reflections2-hero-desktop.jpg") no-repeat center center scroll;
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.5)), url("../images/reflections2-hero-desktop.jpg") no-repeat center center scroll;
     background-size: cover;
     position: relative;
 }
 
 .view-2 {
-    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.8)), url("../assets/images/county-kerry.jpg") no-repeat center center scroll;
+    background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.8)), url("../images/county-kerry.jpg") no-repeat center center scroll;
     background-size: cover;
 }
 
 .view-3 {
-    background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url("../assets/images/background.jpg") no-repeat center center scroll;
+    background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url("../images/background.jpg") no-repeat center center scroll;
     background-size: cover;
 }
 
