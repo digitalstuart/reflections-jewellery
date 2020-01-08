@@ -13,9 +13,11 @@
 </head>
 
 <body>
+	<!-- This is the introductory script code for the Facebook plugin, from https://developers.facebook.com/docs/plugins/page-plugin -->
 	<div id="fb-root"></div>
 	<script async="1" defer="1" crossorigin="anonymous"
 		src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v5.0"></script>
+	<!-- The header and navbar template code is from MDBootstrap -->
 	<header>
 		<nav class="navbar fixed-top navbar-expand-md">
 			<a class="navbar-brand" href="index.html">Reflections Jewellery</a>
@@ -39,12 +41,16 @@
 				</ul>
 			</div>
 		</nav>
+		<!-- Different main images for desktop/tablet and mobile -->
+		<!-- Bracelet on arm for wider desktop view -->
+		<!-- Pair of earrings on a stand for narrower mobile view -->
 		<div class="view intro-2">
 			<div class="container-fluid intro-padding">
 				<div class="row no-gutters">
 					<div class="col-10 offset-1 col-md-8 offset-md-2">
 						<section class="jumbotron text-center">
 							<h3>Handmade bespoke beaded jewellery</h3>
+							<!-- Vital to have a 'contact' call to action button front and centre for the project -->
 							<a href="#contact" class="button"><span>Get in touch </span></a>
 						</section>
 					</div>
@@ -52,6 +58,7 @@
 				<div class="row no-gutters">
 					<div class="col-10 offset-1 col-md-8 offset-md-2">
 						<section class="jumbotron text-center">
+							<!-- For icons replacing bullet points in a list, I used https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list -->
 							<ul class="fa-ul">
 								<li><span class="fa-li"><i class="far fa-gem"></i></span>Handmade and
 									homemade
@@ -78,6 +85,7 @@
 				<div class="col-12 text-center about-section">
 					<div id="about">
 						<h1>About</h1>
+						<!-- The block divider idea and styling comes from Matt Rudge's whiskey walkthrough project -->
 						<hr class="block-divider">
 						<span class="d-inline-block"><img id="image" src="assets/images/marianne.jpg" alt="Marianne McGrath"></span>
 						<div class="d-inline-block who-where-what-position">
@@ -147,6 +155,7 @@
 						</form>
 					</div>
 				</div>
+                <!-- The embedded Facebook widget is a good cross-promotional tool for the business -->
 				<div class="col-12 col-lg-6 text-center">
 					<h1 id="Facebook">Facebook</h1>
 					<hr class="block-divider">
@@ -204,6 +213,7 @@
 			<div class="row no-gutters">
 				<div class="col-12 footer text-center">
 					© 2019 Copyright: Marianne McGrath/Stuart Richards
+					<!-- The basic formatting of social media links in the footer comes from the Rosie Odenkirk resume project -->
 					<ul class="list-inline">
 						<li class="list-inline-item">
 							<a target="_blank" href="https://www.facebook.com/Reflections-Jewelry-102405614519544/">

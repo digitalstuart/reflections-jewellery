@@ -83,6 +83,8 @@ h3 {
     padding-top: 150px;
 }
 
+/* The 'linear-gradient' CSS styling came from https://teamtreehouse.com/community/black-transparent-overlay-on-cover-image */
+
 .intro-2 {    
     background: linear-gradient(rgba(20,20,20,0.3), rgba(20,20,20,0.5)), url("../images/reflections5-hero.jpg") no-repeat center center scroll;
     background-size: cover;
@@ -106,6 +108,8 @@ h3 {
     margin-bottom: 0;
     padding: 0;   
     }
+
+/* Button animation for adding an arrow on hover sourced from https://www.w3schools.com/howto/howto_css_animate_buttons.asp */
 
 .button {
   border-radius: 4px;
@@ -175,6 +179,8 @@ h3 {
     float: left;
 }
 
+/* Having the 'who/where/what' list vertically aligned next to the thumbnail image was achieved with code from https://css-tricks.com/almanac/properties/v/vertical-align */
+
 .who-where-what-position {
     vertical-align: top;
     padding-left: 50px;
@@ -242,6 +248,8 @@ label {
     color: white;
 }
 
+/* The 'grabber' on the bottom right corner of the text area was disabled using code from https://www.w3schools.com/css/css_form.asp */
+
 textarea, label, input, h1 {
     max-width: 100%;
     resize: none;
@@ -269,6 +277,8 @@ form p {
     color: black;
     padding-top: 70px;
 }
+
+/* Flexbox code for maintaining height of 'neighbouring' parent divs came from https://stackoverflow.com/questions/2997767/how-do-i-keep-two-side-by-side-divs-the-same-height */
 
 .row-products {
   display: flex;
@@ -312,6 +322,8 @@ form p {
 .list-inline-item a {
     color: #48a0c1;
 }
+
+/* This 'not last child' styling was sourced from Matt Rudge's whiskey walkthrough project */
 
 .list-inline-item:not(:last-child){
     margin-right: 5px;
