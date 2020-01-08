@@ -8,11 +8,11 @@ So I saw our first milestone project as the perfect opportunity for starting thi
 
 ## UX
 
-My idea for the site was partly inspired by the whiskey walkthrough project we have previously completed on the course. I liked the way it showcased simplicity yet style.
+Anyone starting up a small business needs to think about getting themselves a website as quickly as possible, so the purpose of this project is to create the initial online presence for Reflections Jewellery.
 
-The basic 'single page' approach seems like a very good fit for a small business which has really only just got up and running. There aren't many products to showcase yet, nor is there a significant amount of information to present.
+A scrolling 'single page' approach (similar to the simplicity and style of the whiskey walkthrough project we have previously completed on the course) seems like a very good fit. 
 
-Therefore a simple landing page with a call to action, a contact form, some 'About' information, product photos and social media links feels ideal.
+The business does not have many products to showcase yet, nor is there a significant amount of information to present. Therefore a landing page with a call to action, a contact form, some 'About' information, product photos and social media links feels ideal.
 
 The website is primarily intended to be a promotional tool for the business, with an opportunity for potential customers to enquire about placing an order or making a purchase.
 
