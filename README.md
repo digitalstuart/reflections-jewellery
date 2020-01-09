@@ -19,8 +19,14 @@ The website is primarily intended to be a promotional tool for the business, wit
 ### User Stories
 
 * As the business owner, I want to be able to advertise my products, provide information about them and tell prospective customers about my design background. I want people to be able to easily contact me so that I can receive orders in a professional manner. 
+
+![alt text](https://i.imgur.com/0wGAXYO.jpg "Reflections Jewellery screenshot")
 * As a prospective customer, I want to be able to see example images of the products, find out more information about them and make an order enquiry.
+
+![alt text](https://i.imgur.com/LZfOJ1i.jpg "Reflections Jewellery screenshot")
 * As an organiser of markets/fairs/shows, I want to be able to find local artisans who could exhibit at my events. I need to be able to see that they have a professional approach and provide quality products.
+
+![alt text](https://i.imgur.com/tfXDEQh.jpg "Reflections Jewellery screenshot")
 
 I used Balsamiq to create some basic wireframes for the project, they further illustrate the layout and content ideas which I outlined above.
 
