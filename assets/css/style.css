@@ -393,12 +393,6 @@ form p {
     background-size: cover;
 }
 
-.homepage-heading {
-    text-shadow: 1px 1px;
-    font-size: 3rem;
-    font-weight: 700;
-}
-
 }
 
 @media only screen and (min-width: 750px) {
@@ -406,6 +400,16 @@ form p {
 .photo-1, .photo-2, .photo-3, .photo-4 {
     margin-left: 3px;
     margin-right: 3px;
+}
+
+}
+
+@media only screen and (min-width: 575px) {
+
+.homepage-heading {
+    text-shadow: 1px 1px;
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 }
