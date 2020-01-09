@@ -109,7 +109,7 @@ h1 {
     background-color: transparent;    
     margin-bottom: 0;
     padding: 0;   
-    }
+}
 
 /* Button animation for adding an arrow on hover sourced from https://www.w3schools.com/howto/howto_css_animate_buttons.asp */
 
@@ -124,7 +124,7 @@ h1 {
   transition: all 0.5s;
   cursor: pointer;
   margin-bottom: 12px;  
-  }
+}
 
 .button span {
   cursor: pointer;
@@ -164,7 +164,7 @@ h1 {
 .fa-li {
     position: relative;
     left: -0.5em;
-    }
+}
 
 /* ABOUT PAGE */
 
@@ -186,12 +186,12 @@ h1 {
 .who-where-what-position {
     vertical-align: top;
     padding-left: 50px;
-    }
+}
 
 .who-where-what {   
     padding: 0;
     margin: 0;  
-    }
+}
 
 .fa-graduation-cap {
     font-size: 12px;
@@ -207,7 +207,7 @@ h1 {
 
 .about-text {
     margin-top: 20px;
-    }
+}
 
 #about p {                 
     text-align: left;  
@@ -239,7 +239,7 @@ h1 {
 #text {
     margin-bottom: 14px;
     width: 100%;
-    }
+}
 
 #submit {
     margin-bottom: 4px;
@@ -347,7 +347,7 @@ form p {
     margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    }
+}
 
 #about p {
     text-align: center;

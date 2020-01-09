@@ -28,7 +28,7 @@ The website is primarily intended to be a promotional tool for the business, wit
 
 ![alt text](https://i.imgur.com/tfXDEQh.jpg "Reflections Jewellery screenshot")
 
-I used Balsamiq to create some basic wireframes for the project, they further illustrate the layout and content ideas which I outlined above.
+I used Balsamiq to create some wireframes for the project, they further illustrate the layout and content ideas which I outlined above.
 
 ![alt text](https://i.imgur.com/DCPpLzY.png "Reflections Jewellery wireframes")
 ![alt text](https://i.imgur.com/e10x0jY.png "Reflections Jewellery wireframes")
