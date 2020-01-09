@@ -10,7 +10,7 @@ So I saw our first milestone project as the perfect opportunity for starting thi
 
 Anyone starting up a small business needs to think about getting themselves a website as quickly as possible, so the purpose of this project is to create the initial online presence for Reflections Jewellery.
 
-A scrolling 'single page' approach (similar to the simplicity and style of the whiskey walkthrough project we have previously completed on the course) seems like a very good fit. 
+A scrolling 'single page' approach, with simplicity yet style, seems like a very good fit. 
 
 The business does not have many products to showcase yet, nor is there a significant amount of information to present. Therefore a landing page with a call to action, a contact form, some 'About' information, product photos and social media links feels ideal.
 
@@ -91,7 +91,8 @@ It also features an embedded Facebook widget, with reference to [FB's Page Plugi
     * The email icon opens the user's default email client and the desired 'send to' email address is automatically populated
     * The 'back to top' link jumps the user back up to the landing page
 
-The site was manually viewed and tested on the following devices and browsers:
+The site was manually viewed and tested on the following devices and browsers, with a view to ensuring that: navigation functions respond appropriately on mobile and desktop; responsive changes in the navbar, site layout, background images and text are all present and correct for different devices; and the site remains fully functional, useable and well presented across all screen sizes.
+
 * Samsung Galaxy A5/Chrome, Messenger browser & Gmail browser
 * iPad Air/Safari
 * iPhone X & XS/Safari
@@ -117,6 +118,7 @@ My site was then automatically published at https://digitalstuart.github.io/refl
 ### Content
 
 * I used the header and fixed navbar from MDBootstrap - https://mdbootstrap.com/snippets/jquery/mdbootstrap/102551.
+* For the navbar automatically closing after menu options are tapped on mobile, the code was sourced from https://www.codeply.com/go/PqIBtz3HPL.
 * The button animation for adding an arrow on hover was sourced from https://www.w3schools.com/howto/howto_css_animate_buttons.asp.
 * The 'linear-gradient' CSS styling for better contrast between background images and headings/text came from https://teamtreehouse.com/community/black-transparent-overlay-on-cover-image.
 * For icons replacing bullet points in a list, I used https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list.
