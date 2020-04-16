@@ -1,4 +1,4 @@
-# Reflections Jewellery
+# Reflections Jewellery - visit the site at https://digitalstuart.github.io/reflections-jewellery
 
 ![alt text](https://i.imgur.com/jEgUjbS.jpg "Reflections Jewellery website as seen on different devices")
 
